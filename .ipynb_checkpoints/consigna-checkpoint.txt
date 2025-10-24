@@ -1,0 +1,73 @@
+Introducción
+
+El objetivo del trabajo práctico es que el alumno tenga la experiencia de construir una solución a un problema utilizando técnicas de machine learning. Durante el desarrollo de este, deberá trabajar en grupo y aplicar las técnicas aprendidas en clase para entrenar un modelo. Se espera que el alumno pueda aplicar las técnicas relacionadas con cada etapa de la construcción de un modelo de machine learning.
+
+Objetivos
+
+Elegir un problema a resolver utilizando técnicas de machine learning.
+Obtener y modelar los datos necesarios para resolver el problema.
+Entrenar y aplicar (predecir) un modelo de machine learning.
+Explicar cuál sería el beneficio de aplicar la solución basada en machine learning.
+Desarrollo
+
+Para el desarrollo del trabajo práctico, el grupo de alumnos deberá elegir uno de los conjuntos de datos disponibles:
+
+Canciones de Spotify (clasificación).
+Satisfacción en vuelos de aerolíneas (clasificación).
+Precios de viviendas (regresión).
+Una vez definido el conjunto de datos para trabajar se deberán seguir los siguientes hitos:
+
+1EDA (análisis exploratorio de datos). Debe presentarse en formato Jupyter Notebooks y debe tener conclusiones de los análisis realizados.
+Jupyter Notebook de entrenamiento de modelos. Se deben entrenar al menos 3 algoritmos diferentes y se debe elegir y justificar cuál debería ser el modelo utilizado en producción.
+Presentación final de resultados. Se espera una conclusión final del trabajo realizado.
+Entregas
+
+Dentro de la cursada se encuentran planificadas dos fechas de entregas, en donde los grupos tendrán que cumplir con ciertos lineamientos.
+
+Entrega de etapa 1 del TP integrador
+
+Los grupos deberán presentar Jupyter Notebook (.ipynb) que contenga:
+
+Descripción del problema o situación a resolver en el dataset.
+Análisis exploratorio de datos (EDA por sus siglas en inglés). En el apartado de EDA se detallan los elementos requeridos y deseables. Además de gráficos, se espera que se expliquen los hallazgos encontrados.
+Entrega final del TP Integrador
+
+Los grupos deberán presentar Jupyter Notebook (.ipynb) que contenga:
+
+Entrenamiento de 3 modelos.
+Conclusiones de la performance de los modelos.
+Requeridos para las entregas
+
+Entrega de etapa 1 del TP Integrador
+
+Requerido:
+
+Distribuciones de las variables.
+Análisis / imputación de valores nulos.
+Análisis valores extremos (Outliers).
+Relación de features con el target.
+Deseable:
+
+Correlaciones entre variables.
+Entrega de final del TP integrador
+
+Requerido:
+
+Metodología de resolución.
+Separación en datos de entrenamiento y validación.
+Elección de métrica.
+Entrenamiento de al menos 3 modelos distintos.
+Matriz de confusión (clasificación) / residual plot (regresión).
+Deseable:
+
+Pipelines.
+Tuneo de hiper parámetros. 
+Métodos Oversampling y Undersampling (aplica cuando la proporción de una clase es baja).
+Entrega final del TP integrador y defensa oral sincrónica
+
+Se espera que los grupos hagan una presentación (Power Point o similar) del problema resuelto usando machine learning. El foco debe prestarse basado en los siguientes 3 pilares:
+
+Problema o iniciativa tratada.
+Enfoque de resolución (metodología y técnicas aplicadas).
+Evaluación de resultados.
+Cada grupo tendrá como máximo 15 minutos para exponer, y, al finalizar, el profesor les hará una pregunta individual a cada uno relacionada con el proyecto realizado, lo que terminará de definir la nota del TP.
